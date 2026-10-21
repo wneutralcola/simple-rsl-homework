@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "experiences": [
+    {
+      "task_id": "f0d0e3cde16a316eb51cefa28cfef23f72044f0da8aacbe1e52e649cce566d25",
+      "features": [
+        "multiplication",
+        "parentheses",
+        "precedence",
+        "subtraction"
+      ],
+      "rule_ids": [
+        "parentheses",
+        "precedence"
+      ],
+      "verified": true,
+      "source": "solve",
+      "attempts": 2,
+      "model_source": "qwen3:4b-q4_K_M",
+      "successful_trace_id": "f6e35a9b-edde-47b9-a8e4-41d323a9bb5b",
+      "selection_basis": {
+        "candidate_rule_ids": [
+          "multiplication",
+          "parentheses",
+          "precedence",
+          "subtraction"
+        ],
+        "successful_attempt": 2,
+        "method": "model_selected_allowed_rules_after_exact_verification"
+      },
+      "created_at": "2026-10-13T06:58:04.847543+00:00"
+    }
+  ],
+  "protected_holdout_task_ids": []
+}

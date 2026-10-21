@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "experiences": [],
+  "protected_holdout_task_ids": [
+    "50da42e974c44dd1bb7c630493fb52ba67caa29138f2749d6699225f8fe58f16",
+    "8bef6900523146fbcbd517ba5d2b47794c510f082e4438bc10f618bb2ff14e58",
+    "aca6ec509a4cd79ffc82361e26bff5e7023a4ce83788b8a5762bec0864901a32",
+    "bafb63083c22a039ea173eb13feb1f01a66cfb872b33078c1ba08a5e6d03c027"
+  ]
+}
